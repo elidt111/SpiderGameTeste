@@ -18,21 +18,21 @@ const player = {
   isDucking: false,
   sprite: new Image(),
 };
-player.sprite.src = "assets/1.png";
+player.sprite.src = "1.png";
 
 // Imagens do player
 const playerRun = new Image();
-playerRun.src = "assets/1.png";
+playerRun.src = "1.png";
 
 const playerJump = new Image();
-playerJump.src = "assets/2.png";
+playerJump.src = "2.png";
 
 const playerDuck = new Image();
-playerDuck.src = "assets/3.png";
+playerDuck.src = "3.png";
 
 // Fundo
 const cityBg = new Image();
-cityBg.src = "assets/city.png";
+cityBg.src = "city.png";
 
 let bgX = 0;
 
